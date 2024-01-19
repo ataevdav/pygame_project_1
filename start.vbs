@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "nokia_jump.bat",0,True
