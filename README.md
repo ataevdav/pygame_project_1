@@ -8,15 +8,18 @@
 
 Для функционирования приложения требуется Python версии 3.10 и выше, а также сопутствующие библиотеки с версиями указанными в файле requirements.txt.
 Для установки пакетов используйте команду:
-> pip install -r requirements.txt
-
+```
+pip install -r requirements.txt
+```
 Для скриптов запуска скриптов игры использовались команды в файле *nokia_jump.bat*:
-> @echo off
-> pythonw "C:\Users\kosta\Desktop\pygame\main copy.py"
-
+```
+@echo off
+pythonw "C:\Users\kosta\Desktop\pygame\main copy.py"
+```
 и в файле *start.vbs*:
-> CreateObject("Wscript.Shell").Run "nokia_jump.bat",0,True
-
+```
+CreateObject("Wscript.Shell").Run "nokia_jump.bat",0,True
+```
 **Управление игрой происходит следующими клавишами клавиатуры:**
 - **ПРОБЕЛ** - запуск новой игры
 - **СТРЕЛКИ ВЛЕВО/ВПРАВО** или **W/A** - движение аватара влево или вправо соответственно 
